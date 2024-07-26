@@ -1,0 +1,7 @@
+{
+  "name": "storage-simulator",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
