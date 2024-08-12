@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start:android": "ionic cap run android -l",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test.e2e": "cypress run",
@@ -12,6 +13,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@capacitor/android": "^6.1.1",
     "@capacitor/app": "6.0.0",
     "@capacitor/core": "6.1.1",
     "@capacitor/haptics": "6.0.0",
